@@ -24,4 +24,5 @@ Console.WriteLine($"Original Phrase: {userPhrase}");
 Console.WriteLine($"Original Number: {userNumber}");
 Console.WriteLine($"New Password: {combinedInput}");
 
+Console.WriteLine("Press enter to exit");
 Console.ReadKey();
