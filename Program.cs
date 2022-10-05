@@ -1,10 +1,10 @@
 ﻿Console.WriteLine("I'm going to help you create a password.");
 
 Console.WriteLine("Please enter a phrase: ");
-string userPhrase = Console.ReadLine();
+string? userPhrase = Console.ReadLine();
 
 Console.WriteLine("Please enter a number greater than '9'");
-string userNumber = Console.ReadLine();
+string? userNumber = Console.ReadLine();
 
 Console.WriteLine("Creating Password Now..\n");
 
@@ -23,3 +23,5 @@ combinedInput = combinedInput + firstDigit;
 Console.WriteLine($"Original Phrase: {userPhrase}");
 Console.WriteLine($"Original Number: {userNumber}");
 Console.WriteLine($"New Password: {combinedInput}");
+
+Console.ReadKey();
